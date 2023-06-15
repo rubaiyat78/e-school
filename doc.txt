@@ -1,0 +1,48 @@
+figma to html
+=============
+
+design:
+xxl-xl-lg   md  sm-col
+
+color:
+banner
+------
+background: #F0FFF0
+red: #FD511A
+green: #21B573
+Ash: #6C6B6B
+
+body
+----
+bg: #E5E5E5
+
+about
+-----
+title: #413960
+tag: #585859
+
+courses
+-------
+title: #413960
+tag: #585859
+button: #21B573
+meta data: #585859
+
+testimonial
+-----------
+black: #000000
+
+footer
+------
+bg: #282531
+text color: white
+
+
+Fonts:
+button: 
+Roboto - 400
+font-family: 'Roboto', sans-serif;
+
+body: 
+Poppins - 400, 500, 700
+font-family: 'Poppins', sans-serif;
