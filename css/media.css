@@ -1,35 +1,133 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* common code starts */
+    .c_btn {
+        padding: 12px 30px;
+    }
+    /* common code ends */
+
+    /* banner starts */
+    .banner {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 5px 0 10px;
+        padding: 0 35px 0;
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .b_p2 {
+        padding: 0 30px;
+        line-height: 30px;
+    }
+    .b_img {
+        padding: 0 40px 20px;
+    }
+    
+    /* banner ends */
+
+    /* feature starts */
+    .feature {
+        padding: 0px 0 50px;
+    }
+    .s_feature {
+        margin: 24px 0 0;
+    }
+    /* feature ends */
     
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* common code starts */
+    .c_btn {
+        padding: 12px 30px;
+    }
+    /* common code ends */
+
+    /* banner starts */
+    .banner {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        margin: 7px 0 15px;
+        padding: 0 85px 0;
+        font-size: 40px;
+        line-height: 63px;
+    }
+    .b_p2 {
+        padding: 0 50px;
+        line-height: 32px;
+    }
+    .b_img {
+        padding: 0 50px 25px;
+    }
+    
+    /* banner ends */
+
+    /* feature starts */
+    .feature {
+        padding: 0px 0 80px;
+    }
+    .s_feature {
+        margin: 30px 0 0;
+    }
+    /* feature ends */
     
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     
-    /* common code */
+    /* common code starts */
     .c_btn {
-        width: 100%;
+        padding: 12px 30px;
     }
-    /* common code */
-
-    /* header */
-    .menu ul li {
-        margin-right: 0 !important;
-        text-align: center;
-    }
-    /* header */
+    /* common code ends */
     
+    /* banner starts */
+    .b_p1 {
+        font-size: 14px;
+    }
+    .b_h1 {
+        width: 61%;
+        margin: 10px 0 15px;
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .b_p2 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    /* banner ends */
+
+    /* feature starts */
+    .feature {
+        padding: 0px 0 80px;
+    }
+    /* feature ends */
     
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner starts */
+    .b_h1 {
+        padding-right: 0;
+        font-size: 44px;
+    }
+    /* banner ends */
     
 }
 
@@ -40,5 +138,11 @@
 
 /* Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+
+    /* banner starts */
+    .b_h1 {
+        padding-right: 110px;
+    }
+    /* banner ends */
     
 }

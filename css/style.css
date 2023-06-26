@@ -12,7 +12,7 @@ body {
     color: black;
 }
 .c_btn {
-    padding: 8px 28px;
+    padding: 12px 36px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -29,7 +29,13 @@ body {
     background-color: #21B573;
     transform: scale(1.1);
 }
-
+.link_btn {
+    margin-top: 15px;
+    text-decoration: none;
+}
+.link_btn:hover {
+    color: white;
+}
 /* common code ends */
 
 /* header starts */
@@ -37,7 +43,7 @@ header {
     padding: 20px 0;
     background-color: #F0FFF0;
 }
-.c_nav {}
+.h_nav {}
 .logo {
     cursor: pointer;
 }
@@ -65,17 +71,16 @@ header {
     color: #21B573;
     border-bottom: 2px solid #21B573;
 }
-
 /* modal */
-.c_modalBody {
+.h_modalBody {
     padding: 20px 40px;
 }
-.c_modalIcon {
+.h_modalIcon {
     font-size: 100px;
     text-align: center;
     color: #21B573;
 }
-.c_modalBody h3 {
+.h_modalBody h3 {
     margin-bottom: 25px;
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
@@ -84,20 +89,20 @@ header {
     text-transform: capitalize;
     text-align: center;
 }
-.c_formGroup {
+.h_formGroup {
     margin-bottom: 15px;
 }
-.c_formGroup input {
+.h_formGroup input {
     height: 55px;
 }
-.c_formGroup input::placeholder {
+.h_formGroup input::placeholder {
     text-transform: capitalize;
 }
-.c_formGroup input:focus {
+.h_formGroup input:focus {
     box-shadow: none;
     border-color: #21B573;
 }
-.c_modalBtn {
+.h_modalBtn {
     width: 100%;
     border: 2px solid #21B573;
     color: #21B573;
@@ -107,29 +112,29 @@ header {
     text-transform: capitalize;
     transition: 0.5s ease;
 }
-.c_modalBtn:hover {
+.h_modalBtn:hover {
     background-color: #21B573;
     color: white;
 }
-.c_fpC {
+.h_fpC {
     margin-top: 25px;
     margin-bottom: 50px;
 }
-.c_checkbox {
+.h_checkbox {
     border: 1px solid #21B573 !important;
 }
-.c_checkbox:checked {
+.h_checkbox:checked {
     background-color: #21B573;
     
 }
-.c_fpC .c_checkbox:checked ~ .c_label {
+.h_fpC .h_checkbox:checked ~ .h_label {
     color: #21B573;
 }
-.c_label {
+.h_label {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
 }
-.c_ml {
+.h_ml {
     font-family: 'Roboto', sans-serif;
     font-size: 16px !important;
     font-weight: 400 !important;
@@ -137,13 +142,80 @@ header {
     text-decoration: none;
     text-transform: capitalize !important;
 }
-.c_modalFooter {
+.h_modalFooter {
     background-color: #f8f8f8;
 }
-.c_modalFooter p span {
+.h_modalFooter p span {
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
 }
 /* modal */
 
 /* header ends */
+
+/* banner starts */
+.banner {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: #F0FFF0;
+}
+
+.b_text {}
+.b_p1 {
+    color: #FD511A;
+    line-height: 24px;
+}
+.b_h1 {
+    margin: 10px 0 20px;
+    padding-right: 40px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    color: black;
+}
+.b_h1 span {
+    color: #21B573;
+}
+.b_p2 {
+    line-height: 36px;
+}
+
+.b_img {}
+.b_img img {}
+/* banner ends */
+
+/* feature starts */
+.feature {
+    padding: 0px 0 100px;
+}
+.s_feature {
+    margin: 40px 0 0;
+    padding: 50px 0 50px;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.s_feature:hover {
+    box-shadow: 0px 20px 40px 0px #0000001A;
+}
+.s_img {
+    width: 25%;
+    margin: 0 auto 15px;
+}
+.s_img img {}
+.s_h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    line-height: 36px;
+}
+.s_p {
+    text-transform: capitalize;
+    line-height: 24px;
+}
+/* feature ends */
+
+/* courses starts */
+
+/* courses ends */
