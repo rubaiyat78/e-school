@@ -12,6 +12,20 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     
+    /* common code */
+    .c_btn {
+        width: 100%;
+    }
+    /* common code */
+
+    /* header */
+    .menu ul li {
+        margin-right: 0 !important;
+        text-align: center;
+    }
+    /* header */
+    
+    
 }
 
 /* Large devices (desktops, 992px and up) */
