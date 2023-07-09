@@ -4,7 +4,19 @@
     /* common code starts */
     .c_btn {
         padding: 12px 30px;
+        font-size: 15px;
     }
+    .c_padding {
+        padding-bottom: 60px;
+    }
+    .c_h1 {
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .co_link {
+        margin: 10px 0 20px !important;
+        padding: 5px 20px !important;
+    }   
     /* common code ends */
 
     /* banner starts */
@@ -32,13 +44,74 @@
     /* banner ends */
 
     /* feature starts */
-    .feature {
-        padding: 0px 0 50px;
-    }
     .s_feature {
-        margin: 24px 0 0;
+        margin: 24px 24px 0;
     }
     /* feature ends */
+
+    /* course starts */
+    .co_item {
+        margin: 30px 20px 0;
+        padding: 15px 15px 20px;
+    }
+    .co_h2 {
+        margin: 10px 0 3px !important;
+        font-size: 20px;
+    }
+    .co_p {
+        font-size: 15px;
+    }
+    .co_link {
+        margin: 10px 0 20px !important;
+    }
+    .co_li_img {
+        width: 16px !important;
+    }
+    .co_li_span {
+        font-size: 12px;
+    }
+    /* course ends */
+
+    /* testimonial starts */
+    .t_cont {
+        margin: 40px 0 30px;
+    }
+    .c_indicator {
+        bottom: -60px;
+    }
+    .c_indicator [data-bs-target] {
+        width: 8px;
+        height: 8px;
+    }
+    .sl_text p {
+        margin: 12px 0 10px !important;
+        text-align: center;
+    } 
+    /* testimonial ends */
+
+    /* footer starts  */
+    .copyright {
+        padding: 30px 0 10px;
+    }
+    .fm_dt {
+        padding: 0 20px;
+    }
+    .fm_dt p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .fm_links {
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    .fm_links h2 {
+        font-size: 16px;
+    }
+    .fm_links ul li a {
+        margin-bottom: 3px !important;
+        font-size: 16px;
+    }
+    /* footer ends  */
     
 }
 
@@ -48,6 +121,13 @@
     /* common code starts */
     .c_btn {
         padding: 12px 30px;
+    }
+    .c_padding {
+        padding-bottom: 60px;
+    }
+    .c_h1 {
+        font-size: 30px;
+        line-height: 45px;
     }
     /* common code ends */
 
@@ -76,13 +156,58 @@
     /* banner ends */
 
     /* feature starts */
-    .feature {
-        padding: 0px 0 80px;
-    }
     .s_feature {
         margin: 30px 0 0;
     }
     /* feature ends */
+
+    /* course starts */
+    .co_item {
+        margin: 35px 60px 0;
+        padding: 15px 15px 25px;
+    }
+    /* course ends */
+
+    /* testimonial starts */
+    .t_cont {
+        margin: 40px 0 30px;
+    }
+    .c_indicator {
+        bottom: -70px;
+    }
+    .c_indicator [data-bs-target] {
+        width: 8px;
+        height: 8px;
+    }
+    .sl_text p {
+        margin: 12px 0 10px !important;
+        text-align: center;
+    }
+    /* testimonial ends */
+
+    /* footer starts  */
+    .copyright {
+        padding: 40px 0 10px;
+    }
+    .fm_dt {
+        padding: 0 30px;
+    }
+    .fm_dt p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .fm_links {
+        text-align: center;
+        margin: 30px 0 0;
+    }
+    .fm_links h2 {
+        font-size: 16px;
+    }
+    .fm_links ul li a {
+        margin-bottom: 3px !important;
+        font-size: 16px;
+    }
+    /* footer ends  */
     
 }
 
@@ -92,6 +217,9 @@
     /* common code starts */
     .c_btn {
         padding: 12px 30px;
+    }
+    .c_padding {
+        padding-bottom: 80px;
     }
     /* common code ends */
     
@@ -112,11 +240,45 @@
     }
     /* banner ends */
 
-    /* feature starts */
-    .feature {
-        padding: 0px 0 80px;
+    /* course starts */
+    .co_item {
+        margin: 40px 115px 0;
     }
-    /* feature ends */
+    /* course ends */
+
+    /* testimonial starts */
+    .sl_text p {
+        font-size: 14px;
+    }
+    .c_indicator [data-bs-target] {
+        width: 8px;
+        height: 8px;
+    }
+    /* testimonial ends */
+
+    /* footer starts  */
+    .copyright {
+        padding: 50px 0 15px;
+    }
+    .fm_dt {
+        padding: 0 30px;
+    }
+    .fm_dt p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .fm_links {
+        text-align: center;
+        margin: 30px 0 0;
+    }
+    .fm_links h2 {
+        font-size: 16px;
+    }
+    .fm_links ul li a {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    /* footer ends  */
     
 }
 
@@ -128,6 +290,30 @@
         font-size: 44px;
     }
     /* banner ends */
+
+    /* course starts */
+    .co_li:not(:last-child) {
+        margin-right: 0px;
+    }
+    .co_li_img {
+        width: 17px !important;
+    }
+    .co_li_span {
+        font-size: 14px;
+    }
+    /* course ends */
+
+    /* footer starts */
+    .fm_dt p {
+        font-size: 16px;
+    }
+    .fm_links h2 {
+        font-size: 16px;
+    }
+    .fm_links ul li a {
+        font-size: 16px;
+    }
+    /* footer ends */
     
 }
 
@@ -144,5 +330,11 @@
         padding-right: 110px;
     }
     /* banner ends */
+
+    /* testimonial starts */
+    .sl_text p {
+        font-size: 19px;
+    }
+    /* testimonial ends */
     
 }
