@@ -29,6 +29,10 @@ body {
     background-color: #21B573;
     transform: scale(1.1);
 }
+.c_btn:active {
+    background-color: #FD511A;
+    transform: scale(1.1);
+}
 .link_btn {
     margin-top: 15px;
     text-decoration: none;
